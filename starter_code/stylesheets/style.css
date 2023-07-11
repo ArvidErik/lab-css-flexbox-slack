@@ -8,3 +8,275 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        background-color: #540B51;
+        padding: 20px 20px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid white;
+    }
+
+    nav>div>img {
+        width: 100px;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-image {
+        background-color: #540B51;
+    }
+
+    /* HEADER */
+
+    header {
+        background-color: #540B51;
+    }
+
+    header h1 {
+        margin: 0;
+        color: white;
+        font-size: 40px;
+    }
+
+    .center {
+        text-align: center;
+        padding: 10px;
+    }
+
+    strong {
+        color: orange;
+    }
+
+    header p {
+        color: white;
+    }
+
+    .head-buttons {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+
+    img[alt="Google logo"] {
+        width: 30px;
+        background-color: white;
+    }
+
+    .head-buttons>button {
+        height: 50px;
+        border-radius: 5px;
+        font-size: 14px;
+        text-transform: uppercase;
+        word-spacing: 1px;
+        font-weight: bold;
+        margin: 5px 0;
+    }
+
+    .sign-but {
+        color: #540B51;
+    }
+
+    .google-but {
+        background-color: #4285F4;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+
+    .head-pics img {
+        width: 130vw;
+    }
+
+    /* HEADER */
+
+    .companies {
+        padding: 20px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: #F3EAE2;
+    }
+
+    .companies p {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    .companies div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .companies>div>img {
+        max-width: 22%;
+        height: auto;
+        margin: 0 20px;
+    }
+
+
+
+    /* BLUE  */
+
+    .blue-section {
+        background-color: #F3EAE2;
+    }
+
+    .blue-section img {
+        width: 100vw;
+    }
+
+    .blue-content {
+        padding: 10px;
+        line-height: 1.5;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #3777dd;
+    }
+
+    .link::after {
+        content: url("../images/icon-arrow-right.png");
+    }
+
+    .green-section {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #F3EAE2;
+    }
+
+    .green-section img {
+        width: 100vw;
+    }
+
+    .teams-large-section h3 {
+        font-size: 40px;
+    }
+
+    #purple-but {
+        background-color: #540B51;
+        color: white;
+    }
+
+    #sales-but {
+        background-color: white;
+        border: 1px solid #540B51;
+    }
+
+    .teams-large-section ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0 90px;
+        text-align: center;
+        list-style: none;
+    }
+
+    .teams-large-section span {
+        color: #540B51;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .teams-large-section p+p {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .welcome {
+        background-color: #540B51;
+    }
+
+    .welcome h3 {
+        color: white;
+        font-size: 40px;
+    }
+
+    .welcome .head-buttons {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .try-but {
+        background-color: white;
+        color: #540B51;
+    }
+
+    .talk-but {
+        background-color: #540B51;
+        color: white;
+        border: 1px solid white
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 15px;
+    }
+
+    .footer-table {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer-table ul {
+        list-style: none;
+        padding: 5px;
+    }
+
+    .footer-table ul>li {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .first-item {
+        font-weight: bold;
+    }
+
+    .status {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .status ul {
+        list-style: none;
+        padding: 0;
+        font-weight: bold;
+        line-height: 3;
+    }
+
+    #region::before {
+        content: url("../images/icon-region.png");
+    }
+
+    #download {
+        color: #3777dd;
+    }
+
+    #download::before {
+        content: url("../images/icon-download.png")
+    }
+
+    .icon-list {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+}
